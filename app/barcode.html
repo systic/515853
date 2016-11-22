@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- Meta Tags -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Retail Provider</title>
+  <link rel="stylesheet" href="../bower_components/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<header>
+		<a href="inventory.html" class="back-icon"></a>
+		<h1>Barcode Scanning</h1>
+		<div class="header-tools">
+			<a href="#" class="barcode-icon"></a>
+			<a href="scan-activity.html" class="activity-icon"></a>
+		</div>
+	</header>
+	<div class="tabs">
+		<ul>
+			<li class="active">Incoming</li>
+			<li>Sold</li>
+		</ul>
+	</div>
+	<div class="main-container barcode">
+		<div class="barcode-sold">
+			<div class="barcode-container">
+				<div class="barcode-img">
+					<img src="../i/barcode-scanning.jpg">
+				</div>
+				<div class="barcode-text">Scan the product barcode or QR</div>
+
+				<a href="#" class="barcode-scan btn-options">
+					<i class="barcode-scan-icon"></i>
+				</a>
+			</div>
+			<div class="barcode-failed">
+				<div class="barcode-img">
+					<img src="../i/barcode-scanning-failed.jpg">
+				</div>
+				<div class="barcode-failed-text">Product not found in system. Please contact your agent.</div>
+				<div class="nav-buttons">
+					<a href="#" class="login btn btn-orange">SCAN ANOTHER</a>
+					<a href="#" class="sign-up btn btn-green">CONTACT AGENT</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="barcode-manual">
+			<section class="search-product">
+				<input type="text" placeholder="Enter the product barcode number" id="barcodeNumber" name="barcodeNumber" />
+			</section>
+		</div>
+		
+		
+	</div>
+
+	<div class="overlay"></div>
+
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="../bower_components/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+  <script src="../js/libs/jquery.jqtransform.js"></script>
+  <script src="../bower_components/slick-carousel/slick/slick.min.js"></script>
+  <script src="../js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "retailer-loyalty-android-mobile-application",
+  "authors": [
+    "TCCODER"
+  ],
+  "description": "Mobile Application UI Prototype Challenge",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "^1.12.1",
+    "slick-carousel": "^1.6.0",
+    "jquery-ui-touch-punch": "*"
+  }
+}

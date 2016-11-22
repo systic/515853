@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta Tags -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Retail Provider</title>
+  <link rel="stylesheet" href="../bower_components/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<header class="inventory-header">
+		<a href="#" class="menu-icon"></a>
+		<h1>My Inventory</h1>
+		<div class="header-tools">
+			<a href="#" class="filter-icon"></a>
+			<div class="dropdown-icon">
+				<a href="#" class="sort-icon"></a>
+				<div class="header-dropdown">
+					<ul>
+						<li><a href="#" class="section-enabled"><span>Product name</span></a></i></li>
+						<li><a href="#" class="section-enabled"><span>Barcode ID</span></a></i></li>
+						<li><a href="#" class="section-enabled"><span>Date & Time</span></a></i></li>
+						<li><a href="#" class="section-enabled"><span>Quantity</span></a></i></li>
+						<li><a href="#" class="section-enabled"><span>Points</span></a></i></li>
+					</ul>
+				</div>
+			</div>
+			
+			<a href="#" class="change-view-icon"></a>
+		</div>
+		<div class="menu-toggle">
+			<div class="menu-profile">
+				<h2>Placeholder</h2>
+				<div class="menu-profile-img">
+					<img src="../i/profile1.png">
+					<span class="menu-profile-name">Jane Doe</span>
+					<span class="menu-profile-desc">Retailer Name</span>
+					<a href="#" class="menu-profile-edit">Edit</a>
+				</div>
+			</div>
+			<div class="menu-content">
+				<ul>
+					<li class="menu-item"><a href="dashboard.html"><i class="menu-dashboard-icon"></i>Dashboard</a></li>
+					<li class="menu-item"><a href="notifications.html"><i class="menu-notification-icon"></i>Notifications</a><span class="notifications-number">2</span></li>
+					<li class="menu-item"><a href="inventory.html"><i class="menu-inventory-icon"></i>My Inventory</a></li>
+					<li class="menu-item"><a href="barcode.html"><i class="menu-barcode-icon"></i>Scan Barcode</a></li>
+					<li class="menu-item"><a href="scan-activity.html"><i class="menu-activity-icon"></i>Scan Activity</a></li>
+				</ul>
+				<div class="menu-item">
+					<a href="login.html"><i class="menu-logout-icon"></i>
+					Logout</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="tabs">
+		<ul>
+			<li class="active" data-tab="all">All</li>
+			<li data-tab="stock">Stock</li>
+			<li data-tab="sold">Sold</li>
+		</ul>
+	</div>
+	<div class="main-container inventory">
+		
+		<section class="search-product">
+			<input type="text" placeholder="Search Product" id="searchProduct" name="searchProduct" />
+		</section>
+		<div class="section-tab tab-active" data-tab="all">
+			<section class="inventory-product">
+				<div class="section-view">
+					<a class="view-icon"></a>
+					<div class="section-view-options">
+						<ul>
+							<li><a href="">More detail</a></li>
+							<li><a href="">Contact Agent</a></li>
+						</ul>
+					</div>
+				</div>
+				<img src="../i/products/inventory1.jpg" class="inventory-product-img">
+				<div class="product-info">
+					<div class="product-desc">
+						<h2>Lorem Ipsum Product</h2>
+						<span class="product-id">#123456789</span>
+					</div>
+					
+					<div class="product-data">
+						<span class="product-stock">
+							<h4>stock</h4>
+							<span class="product-number">99</span>
+						</span>
+						<span class="product-status">
+							<h4>sold</h4>
+							<span class="product-number">45</span>
+						</span>
+						<span class="product-points">
+							<h4>points</h4>
+							<span class="points-number">450</span>
+						</span>
+					</div>
+
+				</div>
+			</section>
+			<section class="inventory-product">
+				<div class="section-view">
+					<a class="view-icon"></a>
+					<div class="section-view-options">
+						<ul>
+							<li><a href="">More detail</a></li>
+							<li><a href="">Contact Agent</a></li>
+						</ul>
+					</div>
+				</div>
+				<img src="../i/products/inventory2.jpg" class="inventory-product-img">
+				<div class="product-info">
+					<div class="product-desc">
+						<h2>Lorem Ipsum Product</h2>
+						<span class="product-id">#123456789</span>
+					</div>
+					<div class="product-data">
+						<span class="product-stock">
+							<h4>stock</h4>
+							<span class="product-number">99</span>
+						</span>
+						<span class="product-status">
+							<h4>sold</h4>
+							<span class="product-number">45<sup>+2</sup></span>
+						</span>
+						<span class="product-points">
+							<h4>points</h4>
+							<span class="points-number">450</span>
+						</span>
+					</div>
+
+				</div>
+			</section>
+			<section class="inventory-product">
+				<div class="section-view">
+					<a class="view-icon"></a>
+					<div class="section-view-options">
+						<ul>
+							<li><a href="">More detail</a></li>
+							<li><a href="">Contact Agent</a></li>
+						</ul>
+					</div>
+				</div>
+				<img src="../i/products/inventory3.jpg" class="inventory-product-img">
+				<div class="product-info">
+					<div class="product-desc">
+						<h2>Lorem Ipsum Product</h2>
+						<span class="product-id">#123456789</span>
+					</div>
+					<div class="product-data">
+						<span class="product-stock">
+							<h4>stock</h4>
+							<span class="product-number">99</span>
+						</span>
+						<span class="product-status">
+							<h4>sold</h4>
+							<span class="product-number">45</span>
+						</span>
+						<span class="product-points">
+							<h4>points</h4>
+							<span class="points-number">450</span>
+						</span>
+					</div>
+
+				</div>
+			</section>
+			<section class="inventory-product">
+				<div class="section-view">
+					<a class="view-icon"></a>
+					<div class="section-view-options">
+						<ul>
+							<li><a href="">More detail</a></li>
+							<li><a href="">Contact Agent</a></li>
+						</ul>
+					</div>
+				</div>
+				<img src="../i/products/inventory1.jpg" class="inventory-product-img">
+				<div class="product-info">
+					<div class="product-desc">
+						<h2>Lorem Ipsum Product</h2>
+						<span class="product-id">#123456789</span>
+					</div>
+					<div class="product-data">
+						<span class="product-stock">
+							<h4>stock</h4>
+							<span class="product-number">99</span>
+						</span>
+						<span class="product-status">
+							<h4>sold</h4>
+							<span class="product-number">45</span>
+						</span>
+						<span class="product-points">
+							<h4>points</h4>
+							<span class="points-number">450</span>
+						</span>
+					</div>
+
+				</div>
+			</section>
+		</div>
+
+		<div class="section-tab" data-tab="stock">
+			<section class="inventory-product">
+				<div class="section-view">
+					<a class="view-icon"></a>
+					<div class="section-view-options">
+						<ul>
+							<li><a href="">More detail</a></li>
+							<li><a href="">Contact Agent</a></li>
+						</ul>
+					</div>
+				</div>
+				<img src="../i/products/inventory3.jpg" class="inventory-product-img">
+				<div class="product-info">
+					<div class="product-desc">
+						<h2>Lorem Ipsum Product</h2>
+						<span class="product-id">#123456789</span>
+					</div>
+					<div class="product-data">
+						<span class="product-stock">
+							<h4>stock</h4>
+							<span class="product-number">99</span>
+						</span>
+						<span class="product-status">
+							<h4>last update</h4>
+							<span class="status-text">2 days ago</span>
+						</span>
+					</div>
+
+				</div>
+			</section>
+			<section class="inventory-product">
+				<div class="section-view">
+					<a class="view-icon"></a>
+					<div class="section-view-options">
+						<ul>
+							<li><a href="">More detail</a></li>
+							<li><a href="">Contact Agent</a></li>
+						</ul>
+					</div>
+				</div>
+				<img src="../i/products/inventory2.jpg" class="inventory-product-img">
+				<div class="product-info">
+					<div class="product-desc">
+						<h2>Lorem Ipsum Product</h2>
+						<span class="product-id">#123456789</span>
+					</div>
+					<div class="product-data">
+						<span class="product-stock">
+							<h4>stock</h4>
+							<span class="product-number">99</span>
+						</span>
+						<span class="product-status">
+							<h4>last update</h4>
+							<span class="status-text">10/31/2016</span>
+						</span>
+					</div>
+
+				</div>
+			</section>
+			<section class="inventory-product">
+				<div class="section-view">
+					<a class="view-icon"></a>
+					<div class="section-view-options">
+						<ul>
+							<li><a href="">More detail</a></li>
+							<li><a href="">Contact Agent</a></li>
+						</ul>
+					</div>
+				</div>
+				<img src="../i/products/inventory1.jpg" class="inventory-product-img">
+				<div class="product-info">
+					<div class="product-desc">
+						<h2>Lorem Ipsum Product</h2>
+						<span class="product-id">#123456789</span>
+					</div>
+					<div class="product-data">
+						<span class="product-stock">
+							<h4>stock</h4>
+							<span class="product-number">99</span>
+						</span>
+						<span class="product-status">
+							<h4>last update</h4>
+							<span class="status-text">10/31/2016</span>
+						</span>
+					</div>
+
+				</div>
+			</section>
+			<section class="inventory-product">
+				<div class="section-view">
+					<a class="view-icon"></a>
+					<div class="section-view-options">
+						<ul>
+							<li><a href="">More detail</a></li>
+							<li><a href="">Contact Agent</a></li>
+						</ul>
+					</div>
+				</div>
+				<img src="../i/products/inventory2.jpg" class="inventory-product-img">
+				<div class="product-info">
+					<div class="product-desc">
+						<h2>Lorem Ipsum Product</h2>
+						<span class="product-id">#123456789</span>
+					</div>
+					<div class="product-data">
+						<span class="product-stock">
+							<h4>stock</h4>
+							<span class="product-number">99</span>
+						</span>
+						<span class="product-status">
+							<h4>last update</h4>
+							<span class="status-text">10/31/2016</span>
+						</span>
+					</div>
+
+				</div>
+			</section>
+		</div>
+
+		<div class="section-tab" data-tab="sold">
+			<section class="inventory-product">
+				<div class="section-view">
+					<a class="view-icon"></a>
+					<div class="section-view-options">
+						<ul>
+							<li><a href="">More detail</a></li>
+							<li><a href="">Contact Agent</a></li>
+						</ul>
+					</div>
+				</div>
+				<img src="../i/products/inventory1.jpg" class="inventory-product-img">
+				<div class="product-info">
+					<div class="product-desc">
+						<h2>Lorem Ipsum Product</h2>
+						<span class="product-id">#123456789</span>
+					</div>
+					<div class="product-data">						
+						<span class="product-status">
+							<h4>sold</h4>
+							<span class="product-number">45</span>
+						</span>
+						<span class="product-points">
+							<h4>points</h4>
+							<span class="points-number">450</span>
+						</span>
+					</div>
+
+				</div>
+			</section>
+			<section class="inventory-product">
+				<div class="section-view">
+					<a class="view-icon"></a>
+					<div class="section-view-options">
+						<ul>
+							<li><a href="">More detail</a></li>
+							<li><a href="">Contact Agent</a></li>
+						</ul>
+					</div>
+				</div>
+				<img src="../i/products/inventory2.jpg" class="inventory-product-img">
+				<div class="product-info">
+					<div class="product-desc">
+						<h2>Lorem Ipsum Product</h2>
+						<span class="product-id">#123456789</span>
+					</div>
+					<div class="product-data">						
+						<span class="product-status">
+							<h4>sold</h4>
+							<span class="product-number">45<sup>+2</sup></span>
+						</span>
+						<span class="product-points">
+							<h4>points</h4>
+							<span class="points-number">450</span>
+						</span>
+					</div>
+
+				</div>
+			</section>
+			<section class="inventory-product">
+				<div class="section-view">
+					<a class="view-icon"></a>
+					<div class="section-view-options">
+						<ul>
+							<li><a href="">More detail</a></li>
+							<li><a href="">Contact Agent</a></li>
+						</ul>
+					</div>
+				</div>
+				<img src="../i/products/inventory3.jpg" class="inventory-product-img">
+				<div class="product-info">
+					<div class="product-desc">
+						<h2>Lorem Ipsum Product</h2>
+						<span class="product-id">#123456789</span>
+					</div>
+					<div class="product-data">						
+						<span class="product-status">
+							<h4>sold</h4>
+							<span class="product-number">45</span>
+						</span>
+						<span class="product-points">
+							<h4>points</h4>
+							<span class="points-number">450</span>
+						</span>
+					</div>
+
+				</div>
+			</section>
+			<section class="inventory-product">
+				<div class="section-view">
+					<a class="view-icon"></a>
+					<div class="section-view-options">
+						<ul>
+							<li><a href="">More detail</a></li>
+							<li><a href="">Contact Agent</a></li>
+						</ul>
+					</div>
+				</div>
+				<img src="../i/products/inventory1.jpg" class="inventory-product-img">
+				<div class="product-info">
+					<div class="product-desc">
+						<h2>Lorem Ipsum Product</h2>
+						<span class="product-id">#123456789</span>
+					</div>
+					<div class="product-data">
+						<span class="product-status">
+							<h4>sold</h4>
+							<span class="product-number">45</span>
+						</span>
+						<span class="product-points">
+							<h4>points</h4>
+							<span class="points-number">450</span>
+						</span>
+					</div>
+
+				</div>
+			</section>
+		</div>
+	</div>
+
+
+	<div class="intro-container page-container">
+		<header>
+			<a href="#" class="back-icon sign-up-back"></a>
+			<h1>Filter</h1>
+			<div class="header-tools">
+				<a href="#">Reset</a>
+			</div>
+		</header>
+		<div class="main-container">
+			<form>
+				<div class="input-group">
+					<div class="input-field">
+						<label for="item-type">Item Type </label>
+						<input type="text" placeholder="Enter" id="item-type" name="item-type" value="Sold Item"/>
+					</div>
+					<div class="input-field">
+						<label>Quantity Range</label>
+						<input type="text" placeholder="Min." id="min-range" name="min-range" />
+						<input type="text" placeholder="Max." id="max-range" name="max-range" />
+					</div>
+					<div class="input-field">
+						<label>Date Range</label>
+						<input type="text" placeholder="From" id="date-from" name="min-range" />
+						<input type="text" placeholder="To" id="date-to" name="max-range" />
+					</div>
+					<div class="input-field">
+						<label for="item-type">Keywords </label>
+						<input type="text" placeholder="Enter" id="item-type" name="item-type"/>
+					</div>
+				</div>
+
+				<button type="submit" class="btn-large btn-green">APPLY</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="total-inventory">
+		total <span class="total-number">25,000</span>
+	</div>
+	<a href="#" class="btn-options">
+		<i class="plus-icon"></i>
+	</a>
+
+	<div class="inventory-options-popup">
+		<ul>
+			<li><a href="barcode.html">Add Inventory <span class="popup-add"><i class="plus-icon"></span></i></a></li>
+			<li><a href="barcode.html">Sell Product<i class="inventory-barcode-icon"></i></a></li>
+		</ul>
+		<a href="#" class="popup-close"><i class="close-icon"></i></a>
+	</div>
+
+	<div class="overlay"></div>
+
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="../bower_components/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+  <script src="../js/libs/jquery.jqtransform.js"></script>
+  <script src="../bower_components/slick-carousel/slick/slick.min.js"></script>
+  <script src="../js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,388 @@
+.step-icon{
+	background: url('../i/intro-sprite.png') no-repeat;
+	background-size: 276px;
+    height: 92px;
+    width: 91px;
+	&.step-about{
+		background-position: 14px -4px;
+	}
+	&.step-features{
+		background-position: -77px -4px;
+	}
+	&.step-results{
+		background-position: -181px -4px;
+	}
+}
+
+.back-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -23px -63px;
+	display: inline-block;
+}
+
+.success-icon{
+	width: 56px;
+    height: 56px;
+    background: url(../i/sprite.png);
+    background-size: $sprite-width;;
+    background-position: -164px -3px;
+    display: inline-block;
+}
+
+.menu-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -153px -60px;
+	display: inline-block;
+}
+
+.notifications-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -100px -61px;
+	display: inline-block;
+}
+
+.settings-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -125px -61px;
+	display: inline-block;
+}
+
+.badge-icon{
+	width: 32px;
+	height: 36px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -232px -14px;
+	display: inline-block;
+}
+
+.menu-orange-icon{
+	width: 27px;
+	height: 25px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -181px -61px;
+	display: inline-block;
+}
+
+.view-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -212px -61px;
+	display: inline-block;
+}
+
+.email-icon{
+	width: 30px;
+	height: 30px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -13px -83px;
+	display: inline-block;
+}
+
+.call-icon{
+	width: 30px;
+	height: 30px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -43px -83px;
+	display: inline-block;
+}
+
+.msg-icon{
+	width: 30px;
+	height: 30px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -76px -83px;
+	display: inline-block;
+}
+
+.menu-dashboard-icon{
+	width:28px;
+	height: 24px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -104px -85px;
+	display: inline-block;
+}
+
+.menu-notification-icon{
+	width: 28px;
+	height: 24px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -128px -85px;
+	display: inline-block;
+}
+
+.menu-inventory-icon{
+	width: 28px;
+	height: 24px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -151px -85px;
+	display: inline-block;
+}
+
+.menu-barcode-icon{
+	width: 28px;
+	height: 24px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -175px -85px;
+	display: inline-block;
+}
+
+.menu-activity-icon{
+	width: 28px;
+	height: 24px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -474px -188px;
+	display: inline-block;
+}
+
+.menu-logout-icon{
+	width: 28px;
+	height: 24px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -202px -85px;
+	display: inline-block;
+}
+
+.filter-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -43px -116px;
+	display: inline-block;
+}
+
+.sort-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -70px -116px;
+	display: inline-block;
+}
+
+.change-view-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -96px -117px;
+	display: inline-block;
+
+	&.preview-changed{
+		background-position: -197px -117px;
+	}
+}
+
+.plus-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -125px -118px;
+	display: inline-block;
+}
+
+.inventory-inquiry-icon{
+	width: 40px;
+	height: 40px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -5px -144px;
+	display: inline-block;
+}
+
+.inventory-analystic-icon{
+	width: 40px;
+	height: 40px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -50px -144px;
+	display: inline-block;
+}
+
+.inventory-barcode-icon{
+	width: 40px;
+	height: 40px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -96px -144px;
+	display: inline-block;
+}
+
+.close-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -172px -118px;
+	display: inline-block;
+}
+
+.profile-retailer-icon{
+	width: 37px;
+	height: 37px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -198px -146px;
+	display: inline-block;
+}
+
+.profile-leaderboard-icon{
+	width: 37px;
+	height: 37px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -233px -146px;
+	display: inline-block;
+}
+
+.export-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -173px -156px;
+	display: inline-block;
+}
+
+.menu-retailer-icon{
+	width: 28px;
+	height: 24px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -172px -188px;
+	display: inline-block;
+}
+
+.sync-icon{
+	width: 50px;
+    height: 50px;
+    background: url(../i/sprite.png);
+    background-size: 274px;
+    background-position: -64px -192px;
+    display: inline-block;
+}
+
+.not-sync-icon{
+	width: 50px;
+    height: 50px;
+    background: url(../i/sprite.png);
+    background-size: 274px;
+    background-position: -9px -192px;
+    display: inline-block;
+}
+
+.leaderboard-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -120px -192px;
+	display: inline-block;
+}
+
+.barcode-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -224px -118px;
+	display: inline-block;
+}
+
+.activity-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -248px -118px;
+	display: inline-block;
+}
+
+.barcode-scan-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -144px -156px;
+	display: inline-block;
+}
+
+.list-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -248px -87px;
+	display: inline-block;
+}
+
+.edit-profile-icon{
+	width: 30px;
+    height: 30px;
+    background: url(../i/sprite.png);
+    background-size: 274px;
+    background-position: -7px -112px;
+    display: inline-block;
+}
+
+.drag-icon{
+	width: 20px;
+	height: 20px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -232px -61px;
+	display: inline-block;
+}
+
+.checked-icon{
+	width: 20px;
+	height: 13px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -252px -61px;
+	display: inline-block;
+}
+
+.select-icon{
+	width: 20px;
+	height: 13px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: 0px -66px;
+	display: inline-block;
+}
+
+.checked-icon{
+	width: 20px;
+	height: 13px;
+	background: url('../i/sprite.png');
+	background-size: $sprite-width;
+	background-position: -252px -61px;
+	display: inline-block;
+}

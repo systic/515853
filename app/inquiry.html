@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- Meta Tags -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Retail Provider</title>
+  <link rel="stylesheet" href="../bower_components/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<header>
+		<a href="#" class="back-icon"></a>
+		<h1>Inquiry</h1>
+		<div class="header-tools">
+			<div class="dropdown-icon">
+				<a href="#" class="list-icon"></a>
+				<div class="header-dropdown dropdown-inquiry">
+					<ul>
+						<li><a href="#" class="section-enabled"><span>Call Agent</span></a></i></li>
+						<li><a href="#" class="section-enabled"><span>Email Agent</span></a></i></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="main-container">
+		<section class="scan-products">
+			<div class="not-sync-icon"></div>
+			<a class="section-view view-icon"></a>
+			<img src="../i/products/inventory1.jpg" class="inventory-product-img">
+			<div class="product-info">
+				<h2>Lorem Ipsum Product</h2>
+				<span class="product-id">#123456789</span>
+				<div class="product-data">
+					<span class="product-stock">
+						<h4>QYT</h4>
+						<span class="product-number">5</span>
+					</span>
+					<span class="product-points">
+						<h4>points</h4>
+						<span class="points-number">450</span>
+					</span>
+					<span class="product-status">
+						<h4>Scan On</h4>
+						<span class="status-text">1 hours ago</span>
+					</span>
+				</div>
+
+			</div>
+		</section>	
+		<form>
+			<div class="input-group">
+				<div class="input-field">
+					<label>To</label>
+					<span class="section-data">
+						<span class="section-desc">
+							<img src="../i/retailer1.png" class="list-img">
+							<span class="section-name">John Doe</span>
+							<span class="section-id">Available</span>
+						</span>
+					</span>
+				</div>
+				<div class="input-field">
+					<label for="inquiry-title">Title <span class="error-text">*not available</span> </label>
+					<input type="text" placeholder="Enter" id="inquiry-title" name="inquiry-title"/>
+				</div>
+				<div class="input-field">
+					<label for="inquiry-message" class="label-message">Messages <span class="error-text">*not available</span> </label>
+					<textarea placeholder="Enter" id="inquiry-message" name="inquiry-message"></textarea>
+				</div>
+			</div>
+			<button type="submit" class="inquiry-submit btn-large btn-green">SUBMIT</button>
+		</form>
+	</div>
+
+	<div class="overlay"></div>
+	<div class="inquiry-success success-popup">
+		<h3>Inquiry Submitted!</h3>
+		<div class="success-image"><i class="success-icon"></i></div>
+		<p>Your inquiry has sent to Agent.</p>
+		<a href="dashboard.html" class="btn-large btn-green">OK</a>
+	</div>
+
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="../bower_components/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+  <script src="../js/libs/jquery.jqtransform.js"></script>
+  <script src="../bower_components/slick-carousel/slick/slick.min.js"></script>
+  <script src="../js/script.js"></script>
+
+</body>
+
+</html>

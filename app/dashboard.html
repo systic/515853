@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- Meta Tags -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Retail Provider</title>
+  <link rel="stylesheet" href="../bower_components/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<!-- Here begins the standar body that differs in styles a litle bit with respect of the intro pages -->
+<!-- You can see that the app-start class is no longer required -->
+<!-- You can use others classes in order to make additional styling -->
+<body>
+	<!-- Header -->
+	<header class="dashboard-header">
+		<a href="#" class="menu-icon"></a>
+		<h1>Dashboard</h1>
+		<!-- Header Tools -->
+		<!-- This is the markup that hanldles the right top icons that ypu can see all over the app, sometimes it has additional classes for specific styling/functionality -->
+		<!-- You can see that you load the icons you want according with the icons declaredin icons.scss -->
+		<div class="header-tools">
+			<a href="notifications.html" class="notifications-icon"><span class="notifications-number">2</span></a>
+			<a href="#" class="settings-icon"></a>
+		</div>
+		<!-- Header Tools -->
+		<!-- Markup used for extend functionality in the header like dropdowns and settings changes-->
+		<div class="header-tools-settings">
+			<div class="dropdown-icon">
+				<a href="#" >+Add</a>
+				<div class="header-dropdown">
+					<ul>
+						<li><a href="#" class="section-enabled" data-toggle="profile"><span>My Profile</span><i class="checked-icon"></a></i></li>
+						<li><a href="#" class="section-enabled" data-toggle="agent"><span>My Agent</span><i class="checked-icon"></a></i></li>
+						<li><a href="#" class="section-enabled" data-toggle="statics"><span>Statics</span><i class="checked-icon"></a></i></li>
+						<li><a href="#" class="section-enabled" data-toggle="inventory"><span>Recent Inventory</span><i class="checked-icon"></a></i></li>
+					</ul>
+				</div>
+			</div>
+			
+			<a href="#" class="settings-done">Done</a>
+			
+		</div>
+		<!-- Menu Container -->
+		<!-- Nav menu that displays when you click the menu icon in the header, it can vary if you login as retailer or as an agent -->
+		<div class="menu-toggle">
+			<div class="menu-profile">
+				<h2>Placeholder</h2>
+				<div class="menu-profile-img">
+					<img src="../i/profile1.png">
+					<span class="menu-profile-name">Jane Doe</span>
+					<span class="menu-profile-desc">Retailer Name</span>
+					<a href="edit-profile-retailer.html" class="menu-profile-edit">Edit</a>
+				</div>
+			</div>
+			<div class="menu-content">
+				<ul>
+					<li class="menu-item"><a href="dashboard.hmtl"><i class="menu-dashboard-icon"></i>Dashboard</a></li>
+					<li class="menu-item"><a href="notifications.html"><i class="menu-notification-icon"></i>Notifications</a><span class="notifications-number">2</span></li>
+					<li class="menu-item"><a href="inventory.html"><i class="menu-inventory-icon"></i>My Inventory</a></li>
+					<li class="menu-item"><a href="barcode.html"><i class="menu-barcode-icon"></i>Scan Barcode</a></li>
+					<li class="menu-item"><a href="scan-activity.html"><i class="menu-activity-icon"></i>Scan Activity</a></li>
+				</ul>
+				<div class="menu-item">
+					<a href="login.html"><i class="menu-logout-icon"></i>
+					Logout</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Main Conatiner -->
+	<!-- Class where is the "body" content off the app -->
+	<!-- Drag Container -->
+	<!-- You can that the drag container class in order to handle the sortable functionality and styling -->
+	<div class="main-container drag-container">
+		<!-- All the body content is handled with sections tags, every one of this having it's respecting section-header and section-content as neeeded -->
+		<section class="profile" data-disable="profile">
+			<div class="section-header">
+				<h2>My Profile</h2>
+				<a href="edit-profile-retailer.html" class="section-edit">Edit</a>
+				<div class="settings-edit">
+					<div class="toggle-section">
+						<a href="#" class="toggle-button"></a>
+					</div>
+					<a href="" class="drag-icon"></a>
+				</div>
+			</div>
+			
+			<div class="section-content">
+				<div class="profile-stock">
+					<h4>Stock</h4>
+					<span>450</span>
+				</div>
+				<div class="profile-main">
+					<div class="profile-img">
+						<img src="../i/profile1.png" class="profile-img">
+						<div class="profile-badge"><i class="badge-icon"></i></div>
+					</div>
+					<span class="profile-name">Jane Doe</span>
+					<span class="profile-desc">Retailer Name</span>
+					<div class="profile-points">
+						points <span class="number-points">25,000</span>
+						<a href="inventory.html" class="points-menu"><i class="menu-orange-icon"></i></a>
+					</div>
+				</div>
+				<div class="profile-sold">
+					<h4>Sold</h4>
+					<span>245</span>
+				</div>
+				
+			</div>
+		</section>
+		<section class="agent" data-disable="agent">
+			<div class="section-header">
+				<h2>My Agent</h2>
+				<a class="section-view view-icon"></a>
+				<div class="settings-edit">
+					<div class="toggle-section">
+						<a href="#" class="toggle-button"></a>
+					</div>
+					<a href="" class="drag-icon"></a>
+				</div>
+			</div>
+			<div class="section-content">
+				<img src="../i/retailer1.png">
+				<div class="agent-info">
+					<h3 class="agent-name">John Doe</h3>
+					<span class="current-status">Available</span>
+				</div>
+				<div class="agent-actions">
+					<a href="" class="email-icon"></a>
+					<a href="" class="call-icon"></a>
+					<a href="" class="msg-icon"></a>
+				</div>
+			</div>
+		</section>
+		<section class="statics" data-disable="statics">
+			<div class="section-header">
+				<h2>Statics</h2>
+				<a class="section-filter">
+					<select>
+						<option value="points">Points</option>
+						<option value="option2">option2</option>
+						<option value="option3">option3</option>
+					</select>
+				</a>
+				<div class="settings-edit">
+					<div class="toggle-section">
+						<a href="#" class="toggle-button"></a>
+					</div>
+					<a href="" class="drag-icon"></a>
+				</div>
+			</div>
+			<div class="section-content">
+				<img src="../i/chart.jpg">
+				<div class="chart-month">September 8, 2016</div>
+				<div class="range-filters">
+					<a class="filter-weekly active">Weekly</a>
+					<a class="filter-monthly">Monthly</a>
+				</div>
+				
+			</div>
+		</section>
+		<section class="inventory" data-disable="inventory">
+			<div class="section-header">
+				<h2>Recent Inventory</h2>
+				<a class="section-filter">
+					<select>
+						<option value="points">Sold item</option>
+						<option value="option2">option2</option>
+						<option value="option3">option3</option>
+					</select>
+				</a>
+				<div class="settings-edit">
+					<div class="toggle-section">
+						<a href="#" class="toggle-button"></a>
+					</div>
+					<a href="" class="drag-icon"></a>
+				</div>
+				
+			</div>
+			<div class="section-content">
+				<ul>
+					<li>
+						<a href="product-detail.html">
+							<span class="product-desc">
+								<span class="product-name">Lorem Ipsum Product</span>
+								<span class="product-id">#123456789</span>
+							</span>
+							<span class="product-status">
+								<h4>sold</h4>
+								<span class="status-number">45</span>
+							</span>
+							<span class="product-points">
+								<h4>points</h4>
+								<span class="points-number">450</span>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="product-detail.html">
+							<span class="product-desc">
+								<span class="product-name">Lorem Ipsum Product</span>
+								<span class="product-id">#123456789</span>
+							</span>
+							<span class="product-status">
+								<h4>sold</h4>
+								<span class="status-number">45</span>
+							</span>
+							<span class="product-points">
+								<h4>points</h4>
+								<span class="points-number">450</span>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="product-detail.html">
+							<span class="product-desc">
+								<span class="product-name">Lorem Ipsum Product</span>
+								<span class="product-id">#123456789</span>
+							</span>
+							<span class="product-status">
+								<h4>sold</h4>
+								<span class="status-number">45</span>
+							</span>
+							<span class="product-points">
+								<h4>points</h4>
+								<span class="points-number">450</span>
+							</span>
+						</a>
+					</li>
+				</ul>
+				<a href="#" class="load-all">
+					All inventory
+				</a>
+			</div>
+		</section>
+	</div>
+
+	<!-- Overlay -->
+	<div class="overlay"></div>
+
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="../bower_components/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+  <script src="../js/libs/jquery.jqtransform.js"></script>
+  <script src="../bower_components/slick-carousel/slick/slick.min.js"></script>
+  <script src="../js/script.js"></script>
+
+</body>
+
+</html>
